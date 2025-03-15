@@ -56,3 +56,45 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+---
+## 1. Prepare the environment
+
+### 1.1 安装nodejs
+https://nodejs.org/en/download/
+
+### 1.2 安装python
+https://www.python.org/downloads/
+
+### 1.3 安装awscli
+https://docs.amazonaws.cn/en_us/cli/latest/userguide/getting-started-install.html
+https://awscli.amazonaws.com/AWSCLIV2.msi
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html
+```
+msiexec.exe /i AWSCLIV2.msi
+aws --version
+aws configure
+```
+
+## 2. 安装aws cdk
+```
+npm install -g aws-cdk
+```
+=>
+```
+C:\Users\jerry>npm install -g aws-cdk
+
+added 1 package in 19s
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+npm notice To update run: npm install -g npm@11.2.0
+npm notice
+```
+
+## 3. 创建项目
+```
+mdkir aws-cdk-demo
+cd aws-cdk-demo
+cdk init app --language python
+```
