@@ -53,5 +53,5 @@ class AwsCdkDemoStack(Stack):
             machine_image=ec2.AmazonLinuxImage(
                 generation=ec2.AmazonLinuxGeneration.AMAZON_LINUX_2
             ),
-            key_name="your-key-pair-name"  # 替换为您的密钥对名称
+            key_name="xiaozhuang-saa"  # 替换为您的密钥对名称
         )
